@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         ACTIBIDAD_2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent j = new Intent(MainActivity.this, MainActivity3.class);
+                Intent j = new Intent(MainActivity.this, MainActivity2.class);
                 j.putExtra("Usuario", "Gomez Mauricio");
                 startActivity(j);
             }
@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
         ACTIBIDAD_3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent z = new Intent(MainActivity.this, MainActivity3.class);
+                Intent z = new Intent(MainActivity.this, MainActivity2.class);
                 z.putExtra("Usuario", "Gomez Mauricio");
                 startActivity(z);
             }
